@@ -56,3 +56,5 @@ deb http://extras.ubuntu.com/ubuntu trusty main
 deb-src http://extras.ubuntu.com/ubuntu trusty main
 deb http://archive.canonical.com/ trusty partner
 # deb-src http://archive.canonical.com/ trusty partner
+
+deb http://us.archive.ubuntu.com/ubuntu precise main universe
