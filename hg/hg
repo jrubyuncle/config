@@ -1,0 +1,27 @@
+#!/bin/bash
+
+cat << EEE
+
+apache
+==========================
+/usr/sbin/apachectl start
+                    stop
+
+/etc/httpd/conf/httpd.conf
+
+/etc/httpd/log/
+
+mysql
+==========================
+/sbin/service mysqld start
+                     stop 
+
+/usr/bin/mysqladmin -u root password 'new-password'
+
+
+
+
+EEE
+
+echo ""
+echo "[$0]"
